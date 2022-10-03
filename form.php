@@ -28,11 +28,11 @@ foreach ($users as $user) {
 }
 
 if ($exist) {
-    Log::write($errors[] = 'User with such email exists.');
+    Log::write($errors[] = "User with email($email) exists.");
 }
 
 if (! $exist) {
-    Log::write('User with such email doesn\'t exist');
+    Log::write("User with such email($email) doesn\'t exist");
 }
 
 // response
