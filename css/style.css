@@ -1,0 +1,12 @@
+.form-group {
+    margin-bottom: 5px;
+}
+
+.form-group label {
+    color: white;
+}
+
+.errors p {
+    color: rgb(238, 27, 27);
+    margin-bottom: 10px;
+}
