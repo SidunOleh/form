@@ -2,8 +2,8 @@
 
 class Log
 {
-    private static $logname    = 'logs/app.log';
-    private static $dateFormat = 'H:i:s d.m.Y';
+    static $logname    = 'logs/app.log';
+    static $dateFormat = 'H:i:s d.m.Y';
 
     public static function write($message)
     {
